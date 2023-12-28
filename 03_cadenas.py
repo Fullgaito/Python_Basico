@@ -14,6 +14,7 @@ minusculas
 Metodo count():
 
 Determina la cantidad de veces que se encuentra una letra de un String
+permite buscar una sub-cadena dentro de la cadena original
 
 """
 
