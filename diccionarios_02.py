@@ -18,3 +18,11 @@ print(list(meses.keys()))
 #El metodo values()
 "Se utiliza para obtener una lista de todos los valores del diccionario"
 print(list(meses.values()))
+
+#El metodo clear()
+"Se utiliza para eliminar los elementos de un diccionario,lista,etc.."
+
+employees={"Juan":{"edad":23,"Salario":23000} ,"Javier":{"edad":64,"Salario":233000}}
+print(f"El diccionario es:{employees}")
+employees.clear()
+print(employees)
